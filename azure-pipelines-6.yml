@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool:
+  name: my_machine
+
+steps:
+- script: echo Starting Regression Tests
+  displayName: Start Test
+
+- script: echo Running Test Case 1
+  displayName: Test Case 1
+
+- script: echo Running Test Case 2
+  displayName: Test Case 2
+
+- script: echo All Tests Passed
+  displayName: Test Result
