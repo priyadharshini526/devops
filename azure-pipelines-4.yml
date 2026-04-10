@@ -1,0 +1,7 @@
+trigger:
+- main
+pool:
+name: My-machine
+steps:
+- script: echo Hello DevOps Pipeline
+displayName: Run Script
